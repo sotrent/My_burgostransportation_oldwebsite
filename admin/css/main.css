@@ -1,0 +1,53 @@
+﻿BODY { 
+ font-family: Geneva, Arial, Helvetica, sans-serif;
+       font-weight: bold;
+       font-size: 0.9em;
+       color:#000000;
+   background-color:#FFF; 
+  
+	   margin: 0px 0px;	   
+    
+}	 
+
+.marginador{
+  border: 1px solid #DDD;
+  width:600px;
+border-radius: 10px 10px 10px 10px;
+-moz-border-radius: 10px 10px 10px 10px;
+-webkit-border-radius: 10px 10px 10px 10px;
+}
+.nomempa
+{
+    text-shadow: 0px 2px 3px #000000;
+    color: #F4F7F8;
+    font-weight: bold;
+}
+.nomempb
+{
+    text-shadow: 2px 2px 3px #000000;
+    color: #FFF650;
+}
+
+.marginadortop{
+color:#FFF;
+background-color:#006633;
+border-radius: 10px 10px 0px 0px;
+-moz-border-radius: 10px 10px 0px 0px;
+-webkit-border-radius: 10px 10px 0px 0px;
+}
+
+	
+.logoc{
+background-image:url("img/logoc.png");
+	background-size: 55px 45px;
+	background-position: right;
+	background-repeat:no-repeat;	
+	cursor:pointer;
+	margin:0; 
+position: fixed;
+bottom: 2px;
+right: 27px;
+    height:45px;  
+	width:55px; 
+	z-index:3002;
+}

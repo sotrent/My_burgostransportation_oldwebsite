@@ -1,0 +1,14 @@
+﻿.cont_aviso{ padding: 0; width: 250px; background: rgba(0,0,0,0.5); cursor:pointer; margin:0px 35px;  position:fixed; color:#FFF;	font-family: arial; Font-Size: 8pt; z-index:1001; }
+.avisotxt{ padding: 5px;  Text-Align:Left; }
+.avisotxt:hover{ color:#660066;  background: rgba(255,255,255,0.9); }
+.avisoemisor{  border-bottom: 1px solid #DDD;   text-align:right; }
+.avisoemisor a{ text-decoration:none; color:FFF;}
+
+
+.cont_dir{ padding: 0; width: 250px; background: rgba(0,0,0,0.5); cursor:pointer; color:#FFF;	font-family: arial; Font-Size: 8pt;}
+.cont_dir a{ text-decoration:none; color:white;
+
+}
+
+.dirtxt{ padding: 5px;  Text-Align: center; }
+.cuerpecito:hover{ color:#660066;  background: rgba(255,255,255,0.9); }

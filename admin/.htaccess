@@ -1,0 +1,4 @@
+AuthUserFile "/home/burgnjnu/.htpasswds/public_html/admin/passwd"
+AuthType Basic
+AuthName "admin"
+require valid-user

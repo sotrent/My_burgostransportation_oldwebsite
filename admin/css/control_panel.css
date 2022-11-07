@@ -1,0 +1,116 @@
+BODY { 
+ font-family: Geneva, Arial, Helvetica, sans-serif;
+       font-weight: bold;
+       font-size: 9pt;
+       color:#000000;
+    background-color:#FFFFFF;
+	   background-image: url(img/backround.jpg);
+	   background-size: cover;
+	   background-position: left;
+	   background-repeat:no-repeat;
+	   background-attachment:fixed;
+   margin: 0px 0px;	   
+}	 
+.panel_control{
+  width: 600px;
+  height: 350px;
+  padding: 15px 15px;
+/*  background: #f3f6fa;*/
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+  -webkit-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.5);
+ background: rgba(243,246,250, 0.4);
+}
+.marquesinaizq
+{
+padding: 3px 7px;
+Color: #FFF;
+FONT-WEIGHT: bold;
+font-family: Geneva, Arial, Helvetica, sans-serif;
+font-size:9pt;
+ background: rgba(0,0,0, 0.2);
+-moz-border-radius: 0px 0px 0px 6px;
+border-radius: 0px 0px 0px 6px;
+}
+.marquesinader
+{
+padding: 3px 7px;
+Color: #FFF;
+FONT-WEIGHT: bold;
+font-family:  Geneva, Arial, Helvetica, sans-serif;
+font-size:9pt;
+ background: rgba(0,0,0, 0.2);
+-moz-border-radius: 0px 0px 6px 0px;
+border-radius: 0px 0px 6px 0px;
+}
+.marquesinatitulo{
+padding: 7px 10px;
+Color: #FFF;
+FONT-WEIGHT: bold;
+font-family:Verdana, Helvetica, sans-serif;
+font-size:10pt;
+background: rgba(0,0,0, 0.2);
+-moz-border-radius: 6px 6px 0px 0px;
+border-radius: 6px 6px 0px 0px;
+}
+.marquesinapal{
+padding: 2px;
+Color: #FFF;
+FONT-WEIGHT: bold;
+font-family:Verdana, Helvetica, sans-serif;
+font-size:9pt;
+background: rgba(0,0,0, 0.2);
+}
+
+.marginador{
+  border: 1px solid #DDD;
+  width:600px;
+border-radius: 10px 10px 10px 10px;
+-moz-border-radius: 10px 10px 10px 10px;
+-webkit-border-radius: 10px 10px 10px 10px;
+
+}
+
+.marginadortop{
+color:#FFF;
+background-color:#660066;
+border-radius: 10px 10px 0px 0px;
+-moz-border-radius: 10px 10px 0px 0px;
+-webkit-border-radius: 10px 10px 0px 0px;
+
+}
+.icoalm{
+text-align:center;
+}
+.logoa{
+background-image:url("img/logoa.png");
+	background-size: 45px 45px;
+	background-position: right;
+	background-repeat:no-repeat;	
+	cursor:pointer;
+	margin:0; 
+  	text-align:right; 
+    position: fixed;
+    margin: -13px -5px ;
+
+    height:45px;  
+	width:45px; 
+	z-index:2003;
+}	
+.logoc{
+background-image:url("img/logoc.png");
+	background-size: 55px 45px;
+	background-position: right;
+	background-repeat:no-repeat;	
+	cursor:pointer;
+	margin:0; 
+position: fixed;
+bottom: 2px;
+right: 27px;
+    height:45px;  
+	width:55px; 
+	z-index:3002;
+}
